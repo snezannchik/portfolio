@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div>
+            <img  class="logo" src="img/snezaLogo.svg" alt="">
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#about">ОБО МНЕ</a></li>
+                <li><a href="#skills">КАЧЕСТВА</a></li>
+                <li><a href="#portfolio">МОИ ПРОЕКТЫ</a></li>
+                <li><a href="#application">ОСТАВИТЬ ЗАЯВКУ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="main-name">
+            <img class="name-img" src="img/фото.svg" alt="">
+            <div class="name-title">
+                <div class="icons">
+                    <a href="https://www.figma.com/files/team/1172796940624843345/all-projects?fuid=1172796928590427239"><img class="iconic" src="img/Figma - Negative.svg" alt=""></a>
+                    <a href="https://github.com/snezannchik"><img class="iconic" src="img/Github - Negative.svg" alt=""></a>
+                    <a href="https://web.telegram.org"><img class="iconic" src="img/Telegram - Negative.svg" alt=""></a>
+                    <a href="https://vk.com"><img class="iconic" src="img/VK - Negative.svg" alt=""></a>
+                </div>
+                <h1 class="title">УСАЧЁВА СНЕЖАННА</h1>
+                <p class="subtitle">Начинающий веб-дизайнер</p>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2 class="stitle">Обо мне</h2>
+            <p class="subtitle text">Я начинающий веб-дизайнер, который находится в 
+                процессе обучения и стремится развивать свои навыки в этой увлекательной 
+                области. В данный момент я активно изучаю основы веб-дизайна, включая 
+                принципы композиции, цветовой теории и типографики. Мое увлечение 
+                дизайном началось с простого интереса к визуальному искусству, и с 
+                тех пор оно превратилось в стремление создавать 
+                функциональные и эстетически привлекательные веб-сайты.</p>
+        </section>
+
+        <section id="skills" class="about">
+            <h2 class="stitle">Качества</h2>
+            <div class="skills">
+                <div class="skill">
+                    <img class="skill-img" src="img/Star 1.svg" alt="">
+                    <p class="subtitle">ВНИМАНИЕ К ДЕТАЛЯМ</p>
+                </div>
+                <div class="skill">
+                    <img class="skill-img" src="img/Star 1.svg" alt="">
+                    <p class="subtitle">КРЕАТИВНОСТЬ</p>
+                </div>
+                <div class="skill">
+                    <img class="skill-img" src="img/Star 1.svg" alt="">
+                    <p class="subtitle">ПУНКТУАЛЬНОСТЬ</p>
+                </div>
+                <div class="skill">
+                    <img class="skill-img" src="img/Star 1.svg" alt="">
+                    <p class="subtitle">КОММУНИКАБЕЛЬНОСТЬ</p>
+                </div>
+            </div>
+            <div class="skills-icon">
+                <img class="sk-img" src="img/fi.svg" alt="">
+                <img class="sk-img" src="img/vs.svg" alt="">
+                <img class="sk-img" src="img/js.svg" alt="">
+                <img class="sk-img" src="img/html.svg" alt="">
+            </div>
+        </section>
+
+        <section id="portfolio" class="about port">
+            <h2 class="stitle">Мои проекты</h2>
+            <div class="port-item">
+                <a href="https://snezannchik.github.io/grasshopper/dist/src/index.html">
+                    <p class="subtitle">Веб-сервис для кондитерской, проект создан с использованием HTML, CSS и немного JS</p></a>
+                <a href="https://snezannchik.github.io/grasshopper/dist/src/index.html"><img class="port-img" src="img/конитер.png" alt=""></a>
+            </div>
+            <div class="port-item">
+                <a href="https://www.figma.com/design/yKmKH9nEcLx4VSTbocAugA/Программа-лояльности?t=YDVgiUJSkyg3ZgZc-0">
+                    <img class="port-img" src="img/dssdvds.png" alt="">
+                </a>
+                <a href="https://www.figma.com/design/yKmKH9nEcLx4VSTbocAugA/Программа-лояльности?t=YDVgiUJSkyg3ZgZc-0">
+                    <p class="subtitle">Веб-сервис для панели
+                                администратора программы
+                                расчета скидок, написанный на JS</p>
+                </a>
+            </div>
+            <div class="port-item">
+                <a href="https://www.figma.com/design/yHYlzHCw3nLTAR0yoREcSx/rock%2C-scissors%2C-paper?node-id=0-1&node-type=canvas&t=EMn3ASFlBWmPl7c9-0">
+                    <p class="subtitle">Игра камень ножницы 
+                        бумага, написанная и функционирующая с помощью JS</p></a>
+                        <a href="https://www.figma.com/design/yHYlzHCw3nLTAR0yoREcSx/rock%2C-scissors%2C-paper?node-id=0-1&node-type=canvas&t=EMn3ASFlBWmPl7c9-0">
+                            <img class="port-img" src="img/game.png" alt="">
+                        </a>
+            </div>
+            <div>
+                <img src="img/qr.svg" alt="">
+            </div>
+        </section>
+
+        <section id="application" class="about">
+            <h2 class="stitle">Оставьте заявку!</h2>
+            <div class="app">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name"></label>
+                        <input type="text" id="name" name="name" required placeholder="Имя...">
+                    </div>
+                    <div class="form-group">
+                        <label for="email"></label>
+                        <input type="email" id="email" name="email" required placeholder="Email...">
+                    </div>
+                    <div class="form-group">
+                        <label for="message"></label>
+                        <textarea id="message" name="message" required placeholder="Сообщение..."></textarea>
+                    </div>
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>
+        </section>        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Мой Сайт. Все права защищены.</p>
+    </footer>
+
+    <a href="#" class="scroll-to-top" id="scrollToTop">
+        &#8593;
+    </a>    
+
+</body>
+</html>
